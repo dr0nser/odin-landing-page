@@ -7,7 +7,7 @@ This is an assignment from [The Odin Project](https://www.theodinproject.com/).
 
 Assignment: Create a landing page based on a given design.
 
-Visit: 
+Visit: https://whyucode.github.io/odin-landing-page/
 
 ## Tech Stack
 
