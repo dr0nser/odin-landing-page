@@ -18,7 +18,3 @@ HTML5, CSS3
 
 ![App Screenshot](./images/grow-landing-page.png)
 
-
-
-# Grow ![](./images/grow-logo.png) 
-
