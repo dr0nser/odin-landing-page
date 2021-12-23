@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* hero section */
+
+header, .hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.container {
+    width: 65vw;
+    margin: auto;
+}
+.header-logo {
+    display: flex;
+}
+.header-logo > h3 {
+    font-size: 3vh;
+}
+header > .container {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-links > a {
+    color: #e5e7eb;
+    text-decoration: none;
+    padding-left: 3vw;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.1s;
+}
+.header-links > a:hover {
+    color: #3882f6;
+}
+
+/* hero section */
+.left > h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+.left > p {
+    color: #e5e7eb;
+}
+.left {
+    padding-right: 10vw;
+}
+.left > button {
+    outline: none;
+    border: none;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 2vh;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1vh;
+    transition: all 0.1s;
+}
+.left > button:hover {
+    background-color: #1853b1;
+}
+.left > p {
+    line-height: 1.8;
+    padding: 2vh 0;
+}
+.right > img {
+    width: 25vw;
+}
+.hero > .container {
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Offers section */ 
+.offers {
+    margin: 5vh 0 10vh 0;
+}
+.offers > .container > h1 {
+    text-align: center;
+    margin: 3vh;
+    font-size: 36px;
+    color: #1f2937;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.offer-card {
+    box-shadow: 0 0 5px rgb(223, 223, 223);
+    margin: 0.5vw;
+    padding: 1vw;
+    text-align: center;
+}
+.offer-card > img {
+    width: 15vw;
+    height: 35vh;
+    transition: all 0.4s;
+}
+.offer-card:hover > img {
+    transform: scale(80%);
+}
+.offer-card > h3 {
+    font-size: 2.6vh;
+    color: #1f2937;
+    margin: 2vh;
+}
+.offer-card > p {
+    color: #363e49;
+}
+
+/* quote section */ 
+.quote-section {
+    background-color: #e5e7eb;
+    height: 20vh;
+    padding: 10vh 0;
+    color: #1f2937;
+    text-align: center;
+}
+
+.quote-section > .container > blockquote { 
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.6;
+}
+.quote-section > .container > cite {
+    width: 100vw;
+    font-weight: 600;
+    font-size: 2vh;
+}
+
+/* call to action */ 
+
+.call-to-action {
+    height: 18vh;
+    padding: 5vh 0;
+    margin: 3vh;
+}
+.cta-card {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vh 18vh;
+    margin: 0 5vw;
+    border-radius: 10px;
+}
+.cta-card > div > h4 {
+    font-size: 2.5vh;
+    margin: 1vh 0;
+}
+.cta-card > div > button {
+    outline: none;
+    font-size: 2vh;
+    padding: 0.8vh 3vh;
+    font-weight: 600;
+    color: #f9faf8;
+    background-color: transparent;
+    border: 3px solid #f9faf8;
+    border-radius: 10px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.cta-card > div > button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+}
+
+/* footer */
+
+footer {
+    height: 6vh;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 1.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 400;
+}
